@@ -8,5 +8,8 @@ block main
         +box-head(pageTitle)
 
     ul
-      each item in tours 
-        li #{item.title}
+      each item in tours
+        ul 
+          li #{item.title}
+        ul 
+          li #{item.price_special}
