@@ -86,3 +86,109 @@
   cursor: pointer;
 }
 /* End Show Alert */
+
+/* Tour Detail */
+.tour-detail .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.tour-detail .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tour-detail .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.tour-detail .imagesMain {
+  height: 400px;
+  width: 100%;
+}
+
+.tour-detail .imagesThumb {
+  height: 100px;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.tour-detail .imagesThumb .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.tour-detail .imagesThumb .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.tour-detail .inner-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.tour-detail .inner-barcode,
+.tour-detail .inner-time-start,
+.tour-detail .inner-stock {
+  margin-bottom: 10px;
+}
+
+.tour-detail .inner-barcode i,
+.tour-detail .inner-time-start i,
+.tour-detail .inner-stock i {
+  color: green;
+}
+
+.tour-detail .inner-price-special {
+  font-size: 28px;
+  font-weight: 600;
+  color: red;
+  margin-bottom: 5px;
+}
+
+.tour-detail .inner-price {
+  font-size: 20px;
+  font-weight: 600;
+  color: #6c757d;
+  text-decoration: line-through;
+  margin-bottom: 5px;
+}
+
+.tour-detail .inner-percent {
+  display: inline-block;
+  background: red;
+  color: #fff;
+  font-weight: 600;
+  padding: 3px 6px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.inner-information {
+  margin-top: 30px;
+}
+
+.inner-information .inner-label {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: green;
+}
+
+.inner-information .inner-content {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+/* End Tour Detail */
