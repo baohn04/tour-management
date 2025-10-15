@@ -51,14 +51,14 @@
 /* End Box-head */
 
 /* Show Alert */
-[show-alert] {
+[alert-add-cart-success] {
   position: fixed;
   top: 70px;
   right: 15px;
   z-index: 9999;
 }
 
-[show-alert].alert-hidden {
+[alert-add-cart-success].alert-hidden {
   animation-name: alert-hidden;
   animation-duration: 0.5s;
   animation-fill-mode: both;
@@ -74,7 +74,7 @@
   }
 }
 
-[show-alert] [close-alert] {
+[alert-add-cart-success] [close-alert] {
   background: #ffffffc4;
   display: inline-block;
   width: 24px;
@@ -113,6 +113,11 @@
 .tour-detail .imagesMain {
   height: 400px;
   width: 100%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;
 }
 
 .tour-detail .imagesThumb {
